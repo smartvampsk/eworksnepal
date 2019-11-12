@@ -1,5 +1,6 @@
 @extends('layout.app')
 
 @section('content')
-	<p>Hello World</p>
+    <h1>This a test</h1>
+    <p>You will see this if this works</p>
 @endsection
