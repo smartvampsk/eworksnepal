@@ -1,5 +1,3 @@
-
-
 <footer id="footer">
    <div class="footer-menus-wrapper">
       <div class="container">
@@ -23,13 +21,13 @@
                         <i class="material-icons">
                         email
                         </i>
-                        info@eworksnepal.com 
+                        info@eworksnepal.com
                      </li>
                      <li>
                         <i class="material-icons">
                         email
                         </i>
-                        eworks.nepal@gmail.com 
+                        eworks.nepal@gmail.com
                      </li>
                   </ul>
                </div>
@@ -243,7 +241,7 @@
    },
    "retina_detect": true
    });
-   
+
 </script>
 </body>
 </html>
