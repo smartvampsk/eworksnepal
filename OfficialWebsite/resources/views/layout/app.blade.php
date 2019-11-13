@@ -4,16 +4,18 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Eworksnepal</title>
+        <link rel="icon" type="image/gif" href="{{ asset('images/logo.png') }}" />
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
         <link rel="stylesheet" href="{{asset('css/main.css')}}">
         <style>
         </style>
     </head>
     <body>
         @include('front.include.navbar')
-        <main class="container">
+        <main class="pb-3">
             @yield('content')
         </main>
         @include('front.include.footer')
