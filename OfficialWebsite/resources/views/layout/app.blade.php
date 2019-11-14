@@ -10,8 +10,6 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
         <link rel="stylesheet" href="{{asset('css/main.css')}}">
-        <style>
-        </style>
     </head>
     <body>
         @include('front.include.navbar')
@@ -20,9 +18,11 @@
         </main>
         @include('front.include.footer')
     </body>
-    <script src="{{ asset('js/main.js') }}"></script>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="{{ asset('js/main.js') }}"></script>
+    <script src="{{ asset('js/header.js') }}"></script> 
 </html>

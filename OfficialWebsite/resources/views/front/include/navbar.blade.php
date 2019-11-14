@@ -1,14 +1,8 @@
 
 <header class="bg-light">
-   <div class="bg-line"></div>
-   <div class="header-top">
-     {{--  <div class="nav-top text-right border-bottom border-secondary">
-         <a class="pr-2" href="careers">Careers</a>
-         <a class="pr-4" href="faq">FAQ</a>
-      </div> --}}
-   </div>
+   <div class=" fixed-top bg-line"></div>
 
-   <nav class="navbar navbar-expand-lg navbar-light py-0">
+   <nav class="navbar navbar-expand-lg navbar-light py-0 nav-top nav-head ">
       <div>
          <a class="navbar-brand logo-name pl-5" href="/">
             <img src="{{ asset('images/logo.png') }}" height="80" class="d-inline-block align-top" alt="{{config('app.name', 'EworksNepal')}}">

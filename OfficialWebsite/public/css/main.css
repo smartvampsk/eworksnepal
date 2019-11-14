@@ -108,6 +108,9 @@ footer ul{
 }
 
 /***************************************************************************************************************/
+.nav-top{
+    /*background: #64C3DE;*/
+}
 
 .bg-line{
     height: 5px;
@@ -121,6 +124,10 @@ footer ul{
     background-color: yellow;
 }
 
+.drop-genre:hover>.dropdown-menu{
+  display: block;
+}
+
 .bg-dropdown-menu{
     /*background-image: url(/images/drop4.png);*/
     background-repeat: repeat;
@@ -128,9 +135,10 @@ footer ul{
 }
 
 .bg-dropdown-menu a:hover{
-    background: none;
     border-left: 3px solid yellow;
+    margin-right: 3px;
 }
+
 
 .carousel .item {
   color: #999;
@@ -138,6 +146,7 @@ footer ul{
   min-height: 120px;
   font-size: 13px;
 }
+
 .carousel-home img {
   width: 80px;
   height: 600px !important;
@@ -157,13 +166,16 @@ footer ul{
   left: 15px;
   top: 0;
 }
+
 .carousel .overview b {
   text-transform: uppercase;
   color: #1c47e3;
 }
+
 .carousel-testimonial {
   bottom: -30px;
 }
+
 .carousel-indicators li, .carousel-indicators li.active {
   width: 13px;
   height: 13px;
@@ -196,32 +208,38 @@ footer ul{
   text-align: center;
 }
 
+.carousel-item-icon img{
+    height: 90px;
+}
+
 .services{
     background-image: url(/images/drop2.jpg);
     background-repeat: repeat;
     z-index: -999;
+    background-attachment: fixed;
+}
+
+.services-img{
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -75px;
+  background: white;
 }
 
 .service-heading{
   font-size: 3rem;
-  /*font-weight: bold;*/
 }
 
 .premium{
-  background: #52B5D5;
-  text-align: center;
-  padding: 30px 30px;
-}
-
-.price{
-  background: #64C3DE;
-  text-align: center;
-  padding: 30px 30px;
-  font-size: 2rem;
+    background: #52B5D5;
+    text-align: center;
+    padding: 70px 30px 30px 30px;
 }
 
 .descrip{
-  font-size: 1.5rem;
   padding: 20px 0px 20px 20px;
 }
 
