@@ -159,27 +159,27 @@
                            	<div class="carousel-item-icon d-flex justify-content-between">
                            		<div class="col-md-2 text-center">
                            			<img src="{{ asset('images/stack/html.svg') }}">
-                           			<h5>HTML5</h5>
+                           			<h5 class="pt-2">HTML5</h5>
                            		</div>
                            		<div class="col-md-2 text-center">
                            			<img src="{{ asset('images/stack/css.svg') }}">
-                           			<h5>CSS3</h5>
+                           			<h5 class="pt-2">CSS3</h5>
                            		</div>
                            		<div class="col-md-2 text-center">
                            			<img src="{{ asset('images/stack/js.svg') }}">
-                           			<h5>JavaScript</h5>
+                           			<h5 class="pt-2">JavaScript</h5>
                            		</div>
                            		<div class="col-md-2 text-center">
                            			<img src="{{ asset('images/stack/bootstrap.svg') }}">
-                           			<h5>Bootstrap</h5>
+                           			<h5 class="pt-2">Bootstrap</h5>
                            		</div>
                            		<div class="col-md-2 text-center">
                            			<img src="{{ asset('images/stack/react.svg') }}">
-                           			<h5>React</h5>
+                           			<h5 class="pt-2">React</h5>
                            		</div>
                            		<div class="col-md-2 text-center">
                            			<img src="{{ asset('images/stack/vue.svg') }}">
-                           			<h5>VueJs</h5>
+                           			<h5 class="pt-2">VueJs</h5>
                            		</div>
                             </div>
                         </div>
@@ -188,27 +188,27 @@
                            	<div class="carousel-item-icon d-flex justify-content-between">
                                 <div class="col-md-2 text-center">
                            			<img src="{{ asset('images/stack/angular.svg') }}">
-                           			<h5>AngularJs</h5>
-                           		</div>
-                           		<div class="col-md-2 text-center">
-                           			<img src="{{ asset('images/stack/php.svg') }}">
-                           			<h5>PHP</h5>
+                           			<h5 class="pt-2">AngularJs</h5>
                            		</div>
                            		<div class="col-md-2 text-center">
                            			<img src="{{ asset('images/stack/laravel.svg') }}">
-                           			<h5>Laravel</h5>
+                           			<h5 class="pt-2">Laravel</h5>
+                           		</div>
+                           		<div class="col-md-2 text-center">
+                           			<img src="{{ asset('images/stack/php.svg') }}">
+                           			<h5 class="pt-2">PHP</h5>
                            		</div>
                            		<div class="col-md-2 text-center">
                            			<img src="{{ asset('images/stack/mysql.svg') }}">
-                           			<h5>MySQL</h5>
+                           			<h5 class="pt-2">MySQL</h5>
                            		</div>
                            		<div class="col-md-2 text-center">
                            			<img src="{{ asset('images/stack/python.svg') }}">
-                           			<h5>Python</h5>
+                           			<h5 class="pt-2">Python</h5>
                            		</div>
                            		<div class="col-md-2 text-center">
                            			<img src="{{ asset('images/stack/django.svg') }}">
-                           			<h5>Django</h5>
+                           			<h5 class="pt-2">Django</h5>
                            		</div>
                             </div>
                         </div>
@@ -216,28 +216,28 @@
                         <div class="item carousel-item">
                             <div class="carousel-item-icon d-flex justify-content-between">
                                 <div class="col-md-2 text-center">
-                           			<img src="{{ asset('images/stack/node.svg') }}">
-                           			<h5>NodeJs</h5>
+                           			<img src="{{ asset('images/stack/node.png') }}">
+                           			<h5 class="pt-2">NodeJs</h5>
                            		</div>
                            		<div class="col-md-2 text-center">
                            			<img src="{{ asset('images/stack/java.svg') }}">
-                           			<h5>Java</h5>
+                           			<h5 class="pt-2">Java</h5>
                            		</div>
                            		<div class="col-md-2 text-center">
                            			<img src="{{ asset('images/stack/android.svg') }}">
-                           			<h5>Android</h5>
+                           			<h5 class="pt-2">Android</h5>
                            		</div>
                            		<div class="col-md-2 text-center">
                            			<img src="{{ asset('images/stack/ios.svg') }}">
-                           			<h5>IOS</h5>
+                           			<h5 class="pt-2">IOS</h5>
                            		</div>
                            		<div class="col-md-2 text-center">
                            			<img src="{{ asset('images/stack/photoshop.svg') }}">
-                           			<h5>Photoshop</h5>
+                           			<h5 class="pt-2">Photoshop</h5>
                            		</div>
                            		<div class="col-md-2 text-center">
                            			<img src="{{ asset('images/stack/illustrator.svg') }}">
-                           			<h5>Illustrator</h5>
+                           			<h5 class="pt-2">Illustrator</h5>
                            		</div>
                             </div>
                         </div>
