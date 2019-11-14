@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
         <link rel="stylesheet" href="{{asset('css/main.css')}}">
+        <link rel="stylesheet" href="{{asset('css/portfolio.css')}}">
     </head>
     <body>
         @include('front.include.navbar')

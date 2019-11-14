@@ -51,6 +51,7 @@
 			</a>
         </div>
     </div>
+
     <div class="">
         <div class="services">
             <h3 class="text-uppercase text-center py-4 service-heading text-muted">Our Services</h3>
@@ -131,18 +132,39 @@
                 </div>
             </div>
         </div>
+
         <div class="portfolio">
             <h3 class="text-uppercase text-center py-4 service-heading text-muted">Portfolio</h3>
-            <div class="container">
-                <div class="carousel">
-                    <a class="carousel-item" href="#one!"><img src="{{ asset('/images/mobile2.png') }}"></a>
-                    <a class="carousel-item" href="#two!"><img src="{{ asset('/images/mobile2.png') }}"></a>
-                    <a class="carousel-item" href="#three!"><img src="{{ asset('/images/mobile2.png') }}"></a>
-                    <a class="carousel-item" href="#four!"><img src="{{ asset('/images/mobile2.png') }}"></a>
-                    <a class="carousel-item" href="#five!"><img src="{{ asset('/images/mobile2.png') }}"></a>
-                </div>
-            </div>
-        </div>
+            <div id="portfolio">
+		        <div class="container-fluid">
+		            <div class="row">
+		                <div class="col portfolio-img"><a href="#"><img class="img-responsive" src="{{asset('images/website1.jpg')}}" alt=""></a></div>
+		                <div class="col portfolio-img"><a href="#"><img class="img-responsive" src="{{asset('images/website2.jpg')}}" alt=""></a></div>
+		                <div class="col portfolio-img"><a href="#"><img class="img-responsive" src="{{asset('images/website3.jpg')}}" alt=""></a></div>
+		            </div>
+
+		            <div class="row">
+		                <div class="col portfolio-img"><a href="#"><img class="img-responsive" src="{{asset('images/website4.jpg')}}" alt=""></a></div>
+		                <div class="col portfolio-img"><a href="#"><img class="img-responsive" src="{{asset('images/website5.jpg')}}" alt=""></a></div>
+		                <div class="col portfolio-img"><a href="#"><img class="img-responsive" src="{{asset('images/website6.jpg')}}" alt=""></a></div>
+		            </div>
+		        </div>
+
+		        <div class="container-fluid portfolio-footer">
+		            <div class="row">
+		                <div class="col-4">
+		                    <div class="portfolio-description">
+		                        <h1>WILD</h1>
+		                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus deleniti, distinctio laudantium neque odit recusandae!</p>
+		                        <button>See All</button>
+		                    </div>
+		                </div>
+		                <div class="col-6" style="height: 100%; text-align: end; margin-left: 10%;"><img style=" margin-top: -20%; height:80%; width:100%;" class="img-responsive" src="{{asset('images/portfolio-background.png')}}" alt=""></div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+
         <div class="pt-3 pb-3 bg-light technology-stack">
             <div class="container">
             	<h3 class="text-uppercase text-center py-4 service-heading text-muted">Technology Stack</h3>
